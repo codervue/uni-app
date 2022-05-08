@@ -1,0 +1,64 @@
+{
+	"pages": [{
+		"path": "pages/home/home",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/cartgory/cartgory",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/cart/cart",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/profile/profile",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "黑马优购",
+		"navigationBarBackgroundColor": "#0000ff",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"selectedColor": "#0000ff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/icon/shouye.png",
+				"selectedIconPath": "static/icon/shouye_1.png"
+			},
+			{
+				"pagePath": "pages/cartgory/cartgory",
+				"text": "分类",
+				"iconPath": "static/icon/fenlei.png",
+				"selectedIconPath": "static/icon/fenlei_1.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/icon/dingdan.png",
+				"selectedIconPath": "static/icon/dingdan_1.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/icon/wode.png",
+				"selectedIconPath": "static/icon/wode_1.png"
+			}
+		]
+	}
+}
