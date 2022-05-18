@@ -2,7 +2,7 @@
 	"pages": [{
 		"path": "pages/home/home",
 		"style": {
-			"enablePullDownRefresh": false
+			"enablePullDownRefresh": true
 		}
 
 	}, {
@@ -22,19 +22,42 @@
 		"style": {
 			"enablePullDownRefresh": false
 		}
+	}],
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [{
+				"path": "goods_detail/goods_detail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "goods_list/goods_list",
+				"style": {
+					"navigationBarTitleText": "",
+					"onReachBottomDistance": 150
+				}
+			}, {
+				"path": "search/search",
+				"style": {
+					"enablePullDownRefresh": false
+				}
 
+			}
+		]
 	}],
 	"globalStyle": {
-		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "黑马优购",
-		"navigationBarBackgroundColor": "#0000ff",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Meta优购",
+		"navigationBarBackgroundColor": "#fff",
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
 			"background": "#efeff4"
 		}
 	},
 	"tabBar": {
-		"selectedColor": "#0000ff",
+		"selectedColor": "#012EA5",
 		"list": [{
 				"pagePath": "pages/home/home",
 				"text": "首页",
